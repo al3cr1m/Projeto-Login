@@ -56,5 +56,76 @@ section#login > div#imagem{
 
 #formulario > h1{
     padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+form > div > input#sub{
+    display: block;
+    font-size: 1.2em;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100% ;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: rgb(255, 254, 254);
+    background-color: #bc0938c5;
+    cursor: pointer;
+    box-shadow: none;
+    border-radius: 7px;
+}
+
+form  div > input[type=email] {
+    height: 30px;
+    margin-top: 0px;
+    width: 88%;
+    display: inline-block;
+    border-radius: 10px;
+
+   
+}
+
+form  div > input[type=password] {
+    height: 30px;
+    margin-top: 0px;
+    width: 88%;
+    display: inline-block;
+    border-radius: 10px;
+   
+}
+
+form > div.campo{
+    background-color: #f0285d;
+    padding: 0px;
+
+   
+}
+
+form > div.campo > span{
+    color: rgb(255, 255, 255);
+    
+  
+    
+   
+    
+
+}
+
+form > div > span.material-icons{
+    
+    
+}
+
+form > div.campo > label{
+    display: none;
+}
+
+form > div > a{
+    display: block;
+    
+    background-color: white;
+    border: 2px solid #f14170c5;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 5px;
+    color:#f0285d;
 }
 

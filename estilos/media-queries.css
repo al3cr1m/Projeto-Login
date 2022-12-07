@@ -25,6 +25,25 @@
         float: right;
         width: 70%;
     }
+
+    form  div > input[type=email] {
+        height: 37px;
+        margin-top: 1px;
+        
+        margin-bottom: 3px;
+        width: 94%;
+        display: inline-block;
+       
+    }
+    
+    form  div > input[type=password] {
+        height: 37px;
+        margin-top: 1px;
+        margin-bottom: 3px;
+        width: 94%;
+        display: inline-block;
+       
+    }
    
 
     
@@ -45,6 +64,26 @@
     section#login > div#formulario{
         float: right;
         width: 50%;
+    }
+
+    form  div > input[type=email] {
+        height: 37px;
+        margin-top: 1px;
+        
+        margin-bottom: 3px;
+        width: 93%;
+        display: inline-block;
+        
+       
+    }
+    
+    form  div > input[type=password] {
+        height: 37px;
+        margin-top: 1px;
+        margin-bottom: 3px;
+        width: 93%;
+        display: inline-block;
+       
     }
    
 }
